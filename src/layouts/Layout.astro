@@ -20,11 +20,11 @@ const { title } = Astro.props as Props;
 			<nav class="" id="navbar" aria-label="Top">
 				<div class="">
 					<a href="/">
-						<span class="">LOGO</span>
+						<img src="nashe.png" width="150px" />
 					</a>
 				</div>
 				<div class="">
-					<a href="/" class="">Home</a>
+					<a href="/" class="">sobre mirko</a>
 					<a href="/about" class="">about</a>
 				</div>
 			</nav>
@@ -35,17 +35,18 @@ const { title } = Astro.props as Props;
 	</body>
 </html>
 <style>
-LOGO {
-}
+	LOGO {
+	}
 	body {
 		height: 100dvh;
 	}
 	.fondo-de-imagen {
 		height: 100%;
 		background-image: url("/eldiablo.png");
+		background-size: cover;
 	}
 	.fondo {
-		background-color: red;
+		background-color: rgb(182, 177, 177);
 	}
 	#navbar {
 		display: flex;
